@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Chicken Biryani",
+    "category": "Main Dish",
+    "ingredients": "Chicken, Rice, Spices, Onions, Tomatoes",
+    "instructions": "Marinate chicken, cook rice separately, layer them with spices, and steam together."
+  },
+  {
+    "name": "Avocado Toast",
+    "category": "Breakfast",
+    "ingredients": "Bread, Avocado, Salt, Pepper, Lemon Juice",
+    "instructions": "Toast bread, mash avocado with seasoning, spread on toast, and serve."
+  },
+  {
+    "name": "Fruit Salad",
+    "category": "Dessert",
+    "ingredients": "Mango, Banana, Apple, Orange, Honey",
+    "instructions": "Chop fruits, mix in a bowl, drizzle with honey, and chill before serving."
+  }
+]

@@ -1,0 +1,73 @@
+ <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Recipe Book App</title>
+        <link rel="stylesheet" href="style.Css" />
+        <link rel="icon" type="image/jpeg" href="logocookpad.jpg" />
+      </head>
+      <body>
+        <div class ="Topnav">
+          <div class="nav-container">
+            <div class="nav-left">
+          <a href="#CookPad"> CookPad </a>
+          <a href="#Search"> Search </a>
+          <a href="#Home"> Home </a>
+          <a href="#Favourites"> Favourites </a>
+          </div>
+          <div class="nav-right">
+          <a href="#About"> About </a>
+        </div>
+        </div>
+      </div>
+      <!--Creating a Form-->
+  <div class="form-container">
+    <h2>Recipe Entry Form</h2>
+    <form id="recipeForm">
+      <div class="form-group">
+        <label for="name">Recipe Name</label>
+        <input type="text" id="name" placeholder="Enter Recipe Name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="category">Category</label>
+        <select id="category">
+          <option>-- Select Category --</option>
+          <option>Breakfast</option>
+          <option>Lunch</option>
+          <option>Dinner</option>
+          <option>Snack</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="ingredients">Ingredients</label>
+        <textarea id="ingredients" placeholder="Enter ingredients" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="instructions">Instructions</label>
+        <textarea id="instructions" placeholder="Enter cooking instructions" required></textarea>
+      </div>
+
+        <div class="form-group">
+      <label>Like Please!</label>
+      <span id="favoriteToggle" class="heart" title="Click to mark as favorite">♡</span>
+    </div>
+
+      <div class="button-group">
+        <button type="submit">Submit</button>
+        <button type="button" id="editBtn">Edit</button>
+        <button type="button" id="filterBtn">Filter by Category</button>
+        <button type="button" id="favouritesBtn">Favourites</button>
+        <button type="button" class="delete-btn">Delete</button>
+</div>
+
+    </form>
+    <div id="recipesContainer"></div>
+
+  </div>
+    <script src="script.js"></script>
+      </body>
+      </html>
