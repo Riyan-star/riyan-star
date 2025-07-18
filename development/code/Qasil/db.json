@@ -1,0 +1,150 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Qasil Face Mask",
+      "price": 500,
+      "image": "images/product1.jpg",
+      "category": "Face Mask",
+      "description": "Natural qasil face mask for smooth glowing skin."
+    },
+    {
+      "id": "2",
+      "name": "Qasil Hair Scrub",
+      "price": 700,
+      "image": "images/product2.jpg",
+      "category": "Hair Care",
+      "description": "Organic qasil-based scrub for healthy hair roots."
+    },
+    {
+      "id": "3",
+      "name": "Qasil Body Polish",
+      "price": 850,
+      "image": "images/product3.jpg",
+      "category": "Body Care",
+      "description": "Revitalizing body polish with pure qasil and oils."
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "id": "9e48",
+      "customer": "riyan",
+      "phone": "0720335747",
+      "notes": "myufc",
+      "items": [
+        {
+          "name": "Qasil Toner",
+          "price": 400,
+          "quantity": 7
+        }
+      ],
+      "total": 2800
+    },
+    {
+      "id": "57aa",
+      "customer": "riyan",
+      "phone": "0720335747",
+      "notes": "hggcfgx",
+      "items": [
+        {
+          "name": "Qasil Hair Scrub",
+          "price": 700,
+          "quantity": 1
+        },
+        {
+          "name": "Qasil Toner",
+          "price": 400,
+          "quantity": 2
+        }
+      ],
+      "total": 1500
+    },
+    {
+      "id": "8eac",
+      "customer": "riyan",
+      "phone": "0720335747",
+      "notes": "",
+      "items": [
+        {
+          "name": "Qasil Face Mask",
+          "price": 500,
+          "quantity": 3
+        },
+        {
+          "name": "Qasil Hair Scrub",
+          "price": 700,
+          "quantity": 1
+        }
+      ],
+      "total": 2200
+    },
+    {
+      "id": "6bf5",
+      "customer": "riyan",
+      "phone": "0720335747",
+      "notes": "",
+      "items": [
+        {
+          "name": "Qasil Toner",
+          "price": 400,
+          "quantity": 2
+        },
+        {
+          "name": "Qasil Body Scrub",
+          "price": 600,
+          "quantity": 1
+        },
+        {
+          "name": "Qasil Hair Scrub",
+          "price": 700,
+          "quantity": 1
+        },
+        {
+          "name": "Qasil Face Mask",
+          "price": 500,
+          "quantity": 2
+        }
+      ],
+      "total": 3100
+    },
+    {
+      "id": "1939",
+      "customer": "riyan",
+      "phone": "0720335747",
+      "notes": "",
+      "items": [
+        {
+          "name": "Qasil Toner",
+          "price": 400,
+          "quantity": 4
+        }
+      ],
+      "total": 1600
+    },
+    {
+      "id": "f58a",
+      "customer": "nadia",
+      "phone": "0743048846",
+      "notes": "",
+      "items": [
+        {
+          "name": "Qasil Toner",
+          "price": 400,
+          "quantity": 1
+        },
+        {
+          "name": "Qasil Face Mask",
+          "price": 500,
+          "quantity": 1
+        },
+        {
+          "name": "Qasil Cleanser",
+          "price": 450,
+          "quantity": 1
+        }
+      ],
+      "total": 1350
+    }
+  ]
+}

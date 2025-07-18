@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Qasil Beauty</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="https://sdmntpreastus.oaiusercontent.com/files/00000000-a85c-61f9-a2c1-8bfa8c6f9b5c/raw?se=2025-07-18T13%3A46%3A28Z&sp=r&sv=2024-08-04&sr=b&scid=75edb6b6-bbf8-50af-9c6a-c17f6442c4a4&skoid=1e6af1bf-6b08-4a04-8919-15773e7e7024&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T03%3A25%3A16Z&ske=2025-07-19T03%3A25%3A16Z&sks=b&skv=2024-08-04&sig=Sq95sML0Yeah%2Bss42T3UN5b1KShVfl2eymsRaIrYY3Q%3D" alt="Qasil Beauty Logo" class="logo" style="max-height: 60px;">
+    <h1>Qasil Beauty</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#products">Products</a>
+      <a href="#cart">Cart</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- PRODUCTS SECTION -->
+    <section id="products">
+      <h2>Our Products</h2>
+      <div class="products">
+        <div class="product">
+          <img src=" https://i.pinimg.com/1200x/93/f4/95/93f495e81dcff5e38549a5927bc85ca1.jpg" alt="Qasil Face Mask">
+          <h3>Qasil Face Mask</h3>
+          <p>KES 500</p>
+          <button class="btn" onclick="addToCart('Qasil Face Mask', 500)">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://i.pinimg.com/736x/6a/24/4b/6a244b01df6f4ed3ec0c3006a70625d5.jpg" alt="Qasil Hair Scrub">
+          <h3>Qasil Hair Scrub</h3>
+          <p>KES 700</p>
+          <button class="btn" onclick="addToCart('Qasil Hair Scrub', 700)">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://i.pinimg.com/1200x/fc/a4/f6/fca4f6039a3146249f58386570997fef.jpg" alt="Qasil Body Scrub">
+          <h3>Qasil Body Scrub</h3>
+          <p>KES 600</p>
+          <button class="btn" onclick="addToCart('Qasil Body Scrub', 600)">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://i.pinimg.com/736x/29/11/07/291107570f27e8b7f14dbc2ac9be3c77.jpg" alt="Qasil Cleanser">
+          <h3>Qasil Cleanser</h3>
+          <p>KES 450</p>
+          <button class="btn" onclick="addToCart('Qasil Cleanser', 450)">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://i.pinimg.com/736x/29/54/ab/2954ab634e34570f9661e0fed922f32a.jpg" alt="Qasil perfume">
+          <h3>Qasil perfume</h3>
+          <p>KES 400</p>
+          <button class="btn" onclick="addToCart('Qasil Toner', 400)">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CART SECTION -->
+    <section id="cart" class="cart">
+      <h2>Your Cart</h2>
+      <ul id="cart-items">
+        <!-- Cart items will be added here dynamically -->
+      </ul>
+      <p><strong>Total:</strong> KES <span id="cart-total">0</span></p>
+      <div class="cart-actions">
+        
+        <button id="whatsapp-checkout" onclick="sendOrderViaWhatsApp()">Order via WhatsApp</button>
+      </div>
+    </section>
+
+    <!-- CONTACT / ORDER FORM -->
+    <section id="contact">
+      <h2>Order / Contact</h2>
+      <form onsubmit="submitOrder(event)">
+        <input type="text" id="customer-name" placeholder="Your Name" required>
+        <input type="text" id="customer-phone" placeholder="Phone Number" required>
+        <textarea id="order-notes" rows="4" placeholder="Additional Notes (Optional)"></textarea>
+        <button type="submit">Submit Order</button>
+      </form>
+    </section>
+  </main>
+
+ <footer class="footer">
+  <p>© 2025 Qasil Beauty. All rights reserved.</p>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
